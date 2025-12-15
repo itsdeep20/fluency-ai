@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Send, Mic, MicOff, Sparkles, Menu, X, RefreshCw, BookOpen, GraduationCap, Globe, TrendingUp, AlertTriangle, CheckCircle, Lightbulb, ArrowRight, Clock, Info, HelpCircle, Loader2 } from 'lucide-react';
 
 // --- Configuration ---
-// 1. FOR DEPLOYMENT (Vercel/Local): Uncomment the line below (remove //)
+// Note: In a real project, use import.meta.env.VITE_GEMINI_API_KEY
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
 
-// 2. FOR PREVIEW (Canvas): Keep this line empty.
-//const apiKey = ""; 
+// DELETE OR COMMENT OUT THE LINE BELOW:
+// const apiKey = "";
 // --- System Prompts for Scenarios ---
 const SCENARIOS = [
   // --- Quick Roleplay Category ---

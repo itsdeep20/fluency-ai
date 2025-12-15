@@ -3,11 +3,10 @@ import { Send, Mic, MicOff, Sparkles, Menu, X, RefreshCw, BookOpen, GraduationCa
 
 // --- Configuration ---
 // 1. FOR DEPLOYMENT (Vercel/Local): Uncomment the line below (remove //)
-// const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
 
 // 2. FOR PREVIEW (Canvas): Keep this line empty.
-const apiKey = ""; 
-
+//const apiKey = ""; 
 // --- System Prompts for Scenarios ---
 const SCENARIOS = [
   // --- Quick Roleplay Category ---
